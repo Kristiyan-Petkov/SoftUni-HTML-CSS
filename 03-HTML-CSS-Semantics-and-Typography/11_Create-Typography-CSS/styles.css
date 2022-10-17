@@ -1,0 +1,38 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.headings {
+    font-family: Georgia, serif;
+}
+
+.ul-two {
+    list-style: disc;
+}
+
+.ul-three {
+    list-style: circle;
+}
+
+th {
+    background-color: lightblue;
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+blockquote {
+    border-left: 5px solid rgb(221,221,221);
+    padding: 25px;
+    font-style: italic;
+}
