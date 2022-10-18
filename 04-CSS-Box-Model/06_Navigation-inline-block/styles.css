@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 5%;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+nav,
+ul,
+li {
+    display: inline-block;
+}
+
+span {
+    font-size: 45px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    text-align: center;
+    font-weight: 400;
+    padding-right: 30px;
+}
