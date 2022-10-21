@@ -6,12 +6,10 @@ body {
 
 .card {
     background-color: white;
+    width: 100%;
     border-radius: 14px;
-    max-width: 400px;
-    margin: 0 auto;
     overflow: hidden;
     margin: 1% auto;
-    display: inline-block;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -185,4 +183,83 @@ body {
     margin: 0px 0px 4px 0px;
     padding: 0px;
     color: #fff;
+}
+
+
+/* Panels */
+.panel {
+    border-radius: 14px;
+    width: 100%;
+    overflow: hidden;
+    margin: 1% auto;
+    background-color: #ffbf0e;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.panel .panel__icon {
+    font-size: 65px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.panel .panel__text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+/* Grid */
+.layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    grid-template-rows: repeat(2, 200px) repeat(3, 150px);
+    grid-template-areas: 
+    "card-top card-mid panel-f img-top img-top"
+    "card-top card-mid panel-f img-top img-top"
+    "card-wide card-rm card-rm . panel-s"
+    "card-wide card-rm card-rm img-bottom img-bottom"
+    "card-wide card-rm card-rm img-bottom img-bottom";
+}
+
+.layout-item-1 {
+    grid-area: card-top;
+}
+
+.layout-item-2 {
+    grid-area: card-mid;
+}
+
+.layout-item-3 {
+    grid-area: card-wide;
+}
+
+.layout-item-4 {
+    grid-area: card-rm;
+}
+
+.layout-item-5 {
+    grid-area: img-top;
+}
+
+.layout-item-6 {
+    grid-area: img-bottom;
+}
+
+.layout-item-7 {
+    grid-area: panel-f;
+}
+
+.layout-item-8 {
+    grid-area: panel-s;
 }
