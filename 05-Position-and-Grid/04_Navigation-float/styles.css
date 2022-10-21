@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.head {
+    position: relative;
+    border-bottom: 3px solid;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.head .head__title {
+    font-size: xx-large;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+}
+
+.head .head__nav {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+
+.head .head__nav .head-nav-ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.head .head__nav .head-nav-li {
+    display: inline-block;
+}
+
+.head .head__nav .head-nav-li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.head .head__nav ul .head-nav-a {
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+    letter-spacing: 1.1px;
+}
