@@ -70,6 +70,7 @@ body {
     border: none;
     padding: 0px;
     background-color: transparent;
+    transition: opacity 200ms ease-in-out;
 }
 
 .card .content.content--icon .content__icon:hover {
@@ -96,6 +97,7 @@ body {
     transform: translateX(-50%);
 
     z-index: 1;
+    transition: background-color 200ms ease-in-out;
 }
 
 .card.card--read-more .content .content__btn:hover {
@@ -161,6 +163,7 @@ body {
     cursor: pointer;
     border: none;
     background-color: transparent;
+    transition: opacity 200ms ease-in-out;
 }
 
 .card.card--bg-img .head .head__action:hover {
@@ -201,6 +204,7 @@ body {
     color: #fff;
     text-align: center;
     position: relative;
+    transition: color 200ms ease-in-out;
 }
 
 .panel .panel__icon {
