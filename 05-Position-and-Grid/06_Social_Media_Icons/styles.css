@@ -1,0 +1,29 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li:not(:last-of-type) {
+    padding-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fab {
+    font-size: xx-large;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    background-color: rgb(219, 219, 219);
+}
