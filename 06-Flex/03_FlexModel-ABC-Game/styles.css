@@ -1,0 +1,20 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    justify-content: space-around;
+    flex-direction: column;
+    order: inherit;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+span {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
