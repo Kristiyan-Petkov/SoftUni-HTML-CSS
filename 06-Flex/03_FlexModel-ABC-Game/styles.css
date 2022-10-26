@@ -8,6 +8,7 @@ div {
     height: 35rem;
     justify-content: space-around;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     order: inherit;
     margin: 0 auto;
     gap: 5px;
