@@ -1,0 +1,88 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+html {
+    font-family: Helvetica;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 48px;
+    color: #2C383B;
+    position: sticky;
+}
+
+.head-title-ctr>* {
+    display: inline-block;
+}
+
+.head-title-ctr .head-title {
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #2C383B;
+    font-size: xx-large;
+}
+
+.header .nav .list {
+    display: flex;
+    gap: 2px;
+    list-style-type: none;
+}
+
+.header .nav .list .list-item {
+    padding: 20px;
+    background-color: #ECECEC;
+}
+
+.header .nav .list .list-item:hover {
+    background-color: #E24E2A;
+}
+
+.header .nav .list a {
+    text-decoration: none;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.header .nav .list .list-item:hover a {
+    color: white;
+}
+
+.hero-img {
+    height: 63vh;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.hero-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-desc {
+    text-align: center;
+    color: #F5C7BC;
+    padding: 5vh 14.5vw 7vh 14.5vw;
+    border: none;
+    background-color: #E24E2A;
+}
+
+.hero-desc a {
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services .service-card {
+    text-align: center;
+    padding: 5vh 5vw;
+}
