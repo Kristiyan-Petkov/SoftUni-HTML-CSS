@@ -1,0 +1,17 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #5d5954;
+    --clr-grey-bg: #383838;
+    --clr-green: #1b9772;
+    --clr-green-text: #3aa483;
+    --clr-green-link: #8ec2aa;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
