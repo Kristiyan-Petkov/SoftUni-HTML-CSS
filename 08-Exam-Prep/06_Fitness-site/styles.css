@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: #d01919;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header .top-element-ctr {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.header .top-element-ctr p {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.header .top-element-ctr i {
+    margin-left: 10px;
+}
+
+.hero-nav {
+    background-image: url(./image/fitness-main.jpg);
+    height: 65vh;
+}
+
+.hero-nav .navigation .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    list-style-type: none;
+    padding: 1rem 3rem;
+    color: red;
+}
+
+.hero-nav .navigation .nav-list .nav-link {
+    text-decoration: none;
+    color: rgb(255, 232, 232);
+    font-weight: 400;
+}
+
+.hero-nav .hero-info {
+    color: rgb(255, 232, 232);
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 50px;
+    margin-top: 150px;
+}
