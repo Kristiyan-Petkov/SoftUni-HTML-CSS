@@ -1,0 +1,79 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+@media screen and (max-width: 600px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        background-position: -3rem;
+        padding: 8rem 0 8rem 0;
+    }
+
+    .entry-header-container .button-primary {
+        width: 130px;
+    }
+
+    .site-logos {
+        margin: 0 auto;
+    }
+
+    .site-logos .site-logos-container {
+        display: inline;
+        justify-content: center;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information-text {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .site-information-text .entry-description {
+        width: 100%;
+    }
+
+    .site-form {
+        text-align: center;
+        background: #ff8f57;
+        opacity: 0.6;
+        padding: 4rem 2rem;
+        margin: 0px;
+    }
+
+    .site-form .site-form-container .button-primary {
+        display: inline;
+    }
+
+    .site-blog .site-blog-container {
+        margin: 0px;
+    }
+
+    .site-blog .site-blog-container h2 {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .site-posts {
+        display: block;
+        width: 70%;
+        margin: 1.5rem auto 0 auto;
+    }
+
+    .site-posts .site-post h2 {
+        margin-bottom: 5px;
+    }
+
+    .site-footer {
+        display: block;
+        text-align: center;
+    }
+}
